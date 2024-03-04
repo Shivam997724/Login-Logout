@@ -1,0 +1,88 @@
+.Container {
+    height: 100%;
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right, #9900ff, #cc80ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerBox {
+    min-width: 480px;
+    background-color: #fff;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bttn {
+    outline: none;
+    border: none;
+    background-color: #9900ff;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px 16px;
+    width: 100%;
+    transition: 100ms;
+    cursor: pointer;
+}
+
+.bttn:hover {
+    background: #aa2aff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.Container label {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #313131;
+}
+
+.Container input {
+    border-radius: 5px;
+    border: 1px solid #eee;
+    outline: none;
+    padding: 10px 15px;
+    color: #000;
+    width: 90%;
+}
+
+.Container input:hover {
+    border-color: #ccc;
+}
+
+.Container input:focus {
+    border-color: #9900ff;
+}
+
+.row {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.activeColor {
+    padding-top: 0px;
+    height: 30px;
+    width: 16%;
+    border: 2px solid grey;
+    cursor: pointer;
+}
